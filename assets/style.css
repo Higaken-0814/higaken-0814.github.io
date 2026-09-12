@@ -51,7 +51,7 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .pcards{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}
 @media (max-width:640px){.pcards{grid-template-columns:1fr}.hero-track img{height:150px}}
 .pcard{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:inherit}
-.pcard img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:5px;display:block;transition:opacity .25s}
+.pcard img{width:100%;aspect-ratio:3/2;object-fit:cover;object-position:50% 22%;border-radius:5px;display:block;transition:opacity .25s}
 .pcard:hover img{opacity:.85}
 .ptit{font-size:.8rem;font-weight:600;line-height:1.55}
 .pmeta{color:var(--sub);font-size:.7rem}
@@ -64,7 +64,7 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .albums{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media (max-width:640px){.albums{grid-template-columns:1fr}}
 .album{position:relative;display:block;border-radius:6px;overflow:hidden;text-decoration:none;color:#fff}
-.album img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .35s}
+.album img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 18%;display:block;transition:transform .35s}
 .album:hover img{transform:scale(1.03)}
 @media (prefers-reduced-motion:reduce){.album img{transition:none}.album:hover img{transform:none}}
 .album .cap{position:absolute;inset:auto 0 0 0;padding:34px 16px 12px;background:linear-gradient(transparent,rgba(0,0,0,.75))}
