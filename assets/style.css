@@ -46,6 +46,7 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .hero-track::-webkit-scrollbar{display:none}
 .hero-track img{height:210px;width:auto;flex:none;border-radius:4px;scroll-snap-align:start;display:block}
 .hero-cap{color:var(--sub);font-size:.7rem;letter-spacing:.08em;margin:8px 0 0;text-align:right}
+.pstate{text-align:center;color:var(--sub);font-size:.84rem;margin:-10px 0 10px}
 .pcards{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}
 @media (max-width:640px){.pcards{grid-template-columns:1fr}.hero-track img{height:150px}}
 .pcard{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:inherit}
