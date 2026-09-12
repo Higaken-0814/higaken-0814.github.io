@@ -48,6 +48,12 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .hero-track img{height:210px;width:auto;flex:none;border-radius:4px;scroll-snap-align:start;display:block}
 .hero-cap{color:var(--sub);font-size:.7rem;letter-spacing:.08em;margin:8px 0 0;text-align:right}
 .pstate{text-align:center;color:var(--sub);font-size:.84rem;margin:-10px 0 10px}
+.cos{margin:34px 0 10px;font-size:.95rem;gap:6px 10px}
+.cos b{font-weight:600}
+.cos a{color:var(--sub);text-decoration:none;font-size:.78rem}
+.cos a:hover{color:var(--ink)}
+.cos span{margin-left:auto}
+.gal+.cos{border-top:1px solid var(--hair);padding-top:22px}
 .pcards{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}
 .pcards3{grid-template-columns:1fr 1fr 1fr}
 .albums3{grid-template-columns:1fr 1fr 1fr}
