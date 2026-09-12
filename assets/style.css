@@ -49,6 +49,11 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .hero-cap{color:var(--sub);font-size:.7rem;letter-spacing:.08em;margin:8px 0 0;text-align:right}
 .pstate{text-align:center;color:var(--sub);font-size:.84rem;margin:-10px 0 10px}
 .pcards{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}
+.pcards3{grid-template-columns:1fr 1fr 1fr}
+.albums3{grid-template-columns:1fr 1fr 1fr}
+.albums3 .album img{aspect-ratio:3/4}
+.albums3 .cap b{font-size:.82rem}
+@media (max-width:760px){.pcards3{grid-template-columns:1fr 1fr}.albums3{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.pcards{grid-template-columns:1fr}.hero-track img{height:150px}}
 .pcard{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:inherit}
 .pcard img{width:100%;aspect-ratio:3/2;object-fit:cover;object-position:50% 22%;border-radius:5px;display:block;transition:opacity .25s}
