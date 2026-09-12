@@ -20,7 +20,8 @@ main{padding:64px min(6vw,72px) 80px;max-width:860px;width:100%;margin:0 auto;mi
 h2{font-weight:300;font-size:1.5rem;letter-spacing:.34em;text-align:center;margin:0;padding:76px 0 6px;text-transform:uppercase}
 .subt{text-align:center;color:var(--sub);font-size:.76rem;letter-spacing:.14em;margin:0 0 28px}
 .genre{margin-top:26px}
-h3{font-size:.92rem;font-weight:600;margin:0 0 12px;display:flex;align-items:baseline;gap:14px}
+h3{font-size:.92rem;font-weight:600;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}
+h3>span{white-space:normal}
 h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .works{display:flex;flex-direction:column;gap:10px}
 .work{display:flex;gap:16px;align-items:center;text-decoration:none;color:inherit;background:var(--card);border:1px solid transparent;border-radius:6px;padding:10px}
