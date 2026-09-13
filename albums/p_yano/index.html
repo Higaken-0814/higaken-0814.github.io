@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>矢埜愛茉 | ひがけん</title>
+<link rel="stylesheet" href="../../assets/style.css?v=1789259642">
+</head><body>
+<div class="layout">
+<aside><div class="sticky">
+<img class="avatar" src="../../assets/avatar.jpg" alt="ひがけん">
+<p class="name">ひがけん</p>
+<p class="role">WRITER × PHOTOGRAPHER</p>
+<nav>
+<a href="../../index.html#works">執筆実績</a>
+<a href="../../index.html#photo">撮影実績</a>
+<a href="../../index.html#gallery" class="here">ギャラリー</a>
+<a href="../../archive.html">全記事アーカイブ</a>
+<a href="../../index.html#contact">お仕事のご依頼</a>
+</nav>
+</div></aside>
+<main>
+<h2 style="padding-top:0">矢埜愛茉</h2>
+<p class="subt">2026.03｜『名探偵津田』幽霊役｜全8枚｜<a href="https://entamenext.com/articles/detail/44891" target="_blank" rel="noopener">掲載記事を読む</a></p>
+<div class="gal"><img src="44891_001_a0d46521.jpg" alt="" loading="lazy"><img src="44891_002_489c9c33.jpg" alt="" loading="lazy"><img src="44891_003_db266a23.jpg" alt="" loading="lazy"><img src="44891_004_cace9cdc.jpg" alt="" loading="lazy"><img src="44891_005_af52b148.jpg" alt="" loading="lazy"><img src="44891_006_c7234851.jpg" alt="" loading="lazy"><img src="44891_007_32d41702.jpg" alt="" loading="lazy"><img src="44891_008_e87868c7.jpg" alt="" loading="lazy"></div>
+<p class="more"><a href="../../index.html#gallery">← ギャラリー一覧へ戻る</a></p>
+<div class="lb" id="lb"><img id="lbimg" src="" alt=""></div>
+<script>
+const lb = document.getElementById('lb'), lbimg = document.getElementById('lbimg');
+document.querySelectorAll('.gal img').forEach(im => im.addEventListener('click', () => {
+  lbimg.src = im.src; lb.classList.add('on');
+}));
+lb.addEventListener('click', () => lb.classList.remove('on'));
+</script>
+<footer>&copy; ひがけん — WRITER × PHOTOGRAPHER</footer>
+</main>
+</div>
+</body></html>
