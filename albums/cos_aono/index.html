@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蒼乃爽 | ひがけん</title>
+<link rel="stylesheet" href="../../assets/style.css?v=1789258274">
+</head><body>
+<div class="layout">
+<aside><div class="sticky">
+<img class="avatar" src="../../assets/avatar.jpg" alt="ひがけん">
+<p class="name">ひがけん</p>
+<p class="role">WRITER × PHOTOGRAPHER</p>
+<nav>
+<a href="../../index.html#works">執筆実績</a>
+<a href="../../index.html#photo">撮影実績</a>
+<a href="../../index.html#gallery" class="here">ギャラリー</a>
+<a href="../../archive.html">全記事アーカイブ</a>
+<a href="../../index.html#contact">お仕事のご依頼</a>
+</nav>
+</div></aside>
+<main>
+<h2 style="padding-top:0">蒼乃爽</h2>
+<p class="subt">@SouAono｜女優・コスプレイヤー｜全8枚｜<a href="https://entamenext.com/articles/detail/47266" target="_blank" rel="noopener">掲載記事を読む</a></p>
+<div class="gal"><img src="47266_001_bd56e0c9.jpg" alt="" loading="lazy"><img src="47266_002_e458e3f6.jpg" alt="" loading="lazy"><img src="47266_003_e7e3f31e.jpg" alt="" loading="lazy"><img src="47266_004_25469ccb.jpg" alt="" loading="lazy"><img src="47266_005_04354394.jpg" alt="" loading="lazy"><img src="47266_006_76d68dec.jpg" alt="" loading="lazy"><img src="47266_007_4c1d737b.jpg" alt="" loading="lazy"><img src="47266_008_b8987c79.jpg" alt="" loading="lazy"></div>
+<p class="more"><a href="../../index.html#gallery">← ギャラリー一覧へ戻る</a></p>
+<div class="lb" id="lb"><img id="lbimg" src="" alt=""></div>
+<script>
+const lb = document.getElementById('lb'), lbimg = document.getElementById('lbimg');
+document.querySelectorAll('.gal img').forEach(im => im.addEventListener('click', () => {
+  lbimg.src = im.src; lb.classList.add('on');
+}));
+lb.addEventListener('click', () => lb.classList.remove('on'));
+</script>
+<footer>&copy; ひがけん — WRITER × PHOTOGRAPHER</footer>
+</main>
+</div>
+</body></html>

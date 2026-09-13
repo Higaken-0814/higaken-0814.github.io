@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>若葉希人 | ひがけん</title>
+<link rel="stylesheet" href="../../assets/style.css?v=1789258274">
+</head><body>
+<div class="layout">
+<aside><div class="sticky">
+<img class="avatar" src="../../assets/avatar.jpg" alt="ひがけん">
+<p class="name">ひがけん</p>
+<p class="role">WRITER × PHOTOGRAPHER</p>
+<nav>
+<a href="../../index.html#works">執筆実績</a>
+<a href="../../index.html#photo">撮影実績</a>
+<a href="../../index.html#gallery" class="here">ギャラリー</a>
+<a href="../../archive.html">全記事アーカイブ</a>
+<a href="../../index.html#contact">お仕事のご依頼</a>
+</nav>
+</div></aside>
+<main>
+<h2 style="padding-top:0">若葉希人</h2>
+<p class="subt">@Wakaba_Kito_27｜全6枚｜<a href="https://entamenext.com/articles/detail/47626" target="_blank" rel="noopener">掲載記事を読む</a></p>
+<div class="gal"><img src="47626_001_f7df68e2.jpg" alt="" loading="lazy"><img src="47626_002_731d1b1d.jpg" alt="" loading="lazy"><img src="47626_003_b2039562.jpg" alt="" loading="lazy"><img src="47626_004_d67fd288.jpg" alt="" loading="lazy"><img src="47626_005_e7063b98.jpg" alt="" loading="lazy"><img src="47626_006_c29aa4b3.jpg" alt="" loading="lazy"></div>
+<p class="more"><a href="../../index.html#gallery">← ギャラリー一覧へ戻る</a></p>
+<div class="lb" id="lb"><img id="lbimg" src="" alt=""></div>
+<script>
+const lb = document.getElementById('lb'), lbimg = document.getElementById('lbimg');
+document.querySelectorAll('.gal img').forEach(im => im.addEventListener('click', () => {
+  lbimg.src = im.src; lb.classList.add('on');
+}));
+lb.addEventListener('click', () => lb.classList.remove('on'));
+</script>
+<footer>&copy; ひがけん — WRITER × PHOTOGRAPHER</footer>
+</main>
+</div>
+</body></html>
