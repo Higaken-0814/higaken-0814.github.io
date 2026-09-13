@@ -26,7 +26,7 @@ h3 span{color:var(--sub);font-size:.72rem;font-weight:400}
 .works{display:flex;flex-direction:column;gap:10px}
 .work{display:flex;gap:16px;align-items:center;text-decoration:none;color:inherit;background:var(--card);border:1px solid transparent;border-radius:6px;padding:10px}
 .work:hover{border-color:var(--sub)}
-.work img{width:88px;aspect-ratio:231/410;object-fit:cover;border-radius:3px;flex:none}
+.work img{width:96px;height:auto;max-height:150px;object-fit:contain;border-radius:3px;flex:none;background:#000}
 .wtxt{display:flex;flex-direction:column;gap:2px;min-width:0}
 .wtit{font-size:.85rem;font-weight:600;line-height:1.6}
 .wmeta{color:var(--sub);font-size:.72rem}
